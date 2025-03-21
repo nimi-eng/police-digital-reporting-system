@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.body-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(178, 204, 231);
+}
+.body-container nav{
+    height: 150px;
+    background-color:rgb(116, 164, 213) ;
+    border-radius:0px 0px 100px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.body-container nav .nav-body{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(89, 137, 185) ;
+    height: 90%;
+    width: 60%;
+    border-radius: 20px;
+}
+.nav-body .nav-logo-container{
+    width:15%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    border-radius: 50%;
+
+
+}
+.nav-body .nav-logo-container img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav-body .nav-title {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-body .nav-title P{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(250, 250, 134);
+}
+.form-container {
+    width: 65%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2{
+    text-align: center;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+
+}
+
+.form-group {
+    flex: 1;
+    margin: 0px 30px;
+    width: 80%;
+
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.victims-combo{
+    width: 90%;
+    margin-left: 24px;
+}
+.button-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
